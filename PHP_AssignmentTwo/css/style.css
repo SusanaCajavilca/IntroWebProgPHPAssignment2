@@ -1,0 +1,208 @@
+/****General settings***/
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0px;   /*  0 margin, a default value */
+    background-color: #f4f4f4;  /*  a nice white to the eyes of the user*/
+
+}
+
+/**** Working in the Global header****/
+
+.navbar-brand img{  /*Adjusting the height of the menu bar*/
+    height: 120px;
+    width: auto;
+}
+
+/**** Working in the Global footer****/
+
+footer{
+    background-color: #0e0e0e;  /* A nice color black , nice to the eyes of the user*/
+    height: 160px;
+    display: flex; /*with this the two elements are in one horizontal axis*/
+}
+
+footer > div{
+    align-items: center;
+    justify-content: center;
+}
+
+
+h5{
+    font-family: 'Raleway',sans-serif;
+    font-size: 20px;
+    color: #f4f4f4;     /* A nice white , nice to the eyes of the user*/
+    align-items: center;
+    justify-content: center;
+    margin-top: 50%;
+    letter-spacing: 1px;
+}
+
+footer div:nth-child(1){
+    margin-left: 45%;     /* With this I move the text to the center of the footer*/
+}
+
+footer div:nth-child(2){
+    margin-left: auto;  /*With this I move the  Logo to the right corner*/
+    height: 160px;
+}
+
+footer div:nth-child(2) img{
+    width: auto;      /*Adjusting the image of the footer*/
+    height: 100%;
+}
+
+/**** Working in the Home/Index Page ****/
+
+.masthead{    /*Adjusting the image of money  that goes in the masthead*/
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/rich_masthead.jpg');  /*Using a image for the background of the masthead*/
+    background-size: cover;
+}
+
+.masthead div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);  /*Making image opaque*/
+    display: flex;
+    align-items: center;       /*with this the h1 goes to the center*/
+    justify-content: center;  /*with this the h1 goes to the center*/
+}
+
+h1{
+    color:#f4f4f4; /* A nice white , nice to the eyes of the user*/
+    font-family: 'Raleway',sans-serif;
+    font-size: 90px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    text-align: center;
+    text-shadow: 10px 2px 8px rgba(0,0,0,0.7); /*adding shadow*/
+}
+
+.rich{
+    color: #FFD700; /*gold color*/
+    font-weight: bold;
+    -webkit-text-stroke: 1px #0e0e0e; /*adding a black border to the words*/
+}
+
+main{
+    justify-content: center;  /*content goes to the center*/
+    text-align: center;
+    background-color: #f4f4f4; /*  a nice white to the eyes of the user*/
+}
+
+.explaining h2{
+    padding: 3% 1% 1% 1%;
+    font-family: 'Roboto',sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.explaining p{
+    padding: 1% 8%;
+    font-size: 25px;
+    letter-spacing: 1px;  /*adding spacing so that letters are comfortable to read*/
+    line-height: 2.5;
+}
+
+.form-col div:nth-child(1){   /* this is for the first form, when creating user*/
+    background-color: #0A5C36;
+    color: #f4f4f4; /*  a nice white to the eyes of the user*/
+    padding: 5% 1% 5% 1%;
+    margin: 5% 1% 5% 1%;
+    border-radius: 40px; /* rounding the corners*/
+}
+
+.form-col div:nth-child(2){   /* this is for the second form, when user logs in*/
+    background-color: #21D375;
+    color: #f4f4f4;   /*  a nice white to the eyes of the user*/
+    padding: 5% 1% 5% 1%;
+    margin: 5% 1% 5% 1%;
+    border-radius: 40px;  /* rounding the corners*/
+}
+
+.form-col{
+    margin: auto;  /*putting in center the elements*/
+}
+
+
+
+/**** Working in the Sign-in Page ****/
+.signin-masthead{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/sigin_mastehead.jpg');  /*Using a image for the background of the masthead*/
+    background-size: cover;
+}
+
+.signin-masthead div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);  /*Making image opaque*/
+    display: flex;
+    align-items: center;       /*with this the h1 goes to the center*/
+    justify-content: center;  /*with this the h1 goes to the center*/
+}
+
+.signin-masthead div h3{
+    color: #f4f4f4;    /*  a nice white to the eyes of the user*/
+    font-family: 'Raleway',sans-serif;
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.signin-row  div {  /*this is the sig-in form*/
+    padding: 5%;
+    margin: 5%;
+    background-color: #21D375;
+}
+
+.signin-row{
+    width: 100%; /*making sure that fits into the screen*/
+}
+
+/**** Working in the Login-Success Page ****/
+
+.masthead-money{
+    height: 350px; /*this banner is not so tall*/
+    width: 100%;
+    background-image: url('../img/money_masthead.jpg');  /*Using a image for the background of the masthead*/
+    background-size: cover;
+}
+
+.masthead-money div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);  /*Making image opaque*/
+    display: flex;
+    align-items: center;       /*with this the h1 goes to the center*/
+    justify-content: center;  /*with this the h1 goes to the center*/
+}
+.person-row{
+    padding: 5% 6% 10% 6%;
+}
+
+.final-reflexion{
+    justify-content: center;    /*putting in center the elements*/
+    text-align: center;        /*putting in center the elements*/
+}
+
+
+
+/**** Working in the Save User Page ****/
+
+.success-back-row {
+    width: 100%;  /*making sure that fits into the screen*/
+}
+
+.mx-auto{
+    text-align: center;   /*putting in center the elements*/
+}
+
+.save{
+    height: 58vh; /*this value works for the screen of my laptop ASUS Vivobook*/
+}
